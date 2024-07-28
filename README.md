@@ -28,12 +28,12 @@ Use the following Docker commands for running, starting, accessing, and managing
 	docker cp [options] source_path container_id_or_name:destination_path
 
 6.Download Large Language Model:
-Download the large language model to server_code/model/Index_1_9B from the specified address: https://hf-mirror.com/IndexTeam/Index-1.9B/tree/main or https://huggingface.co/IndexTeam/Index-1.9B/tree/main.
+Download the large language model to server_code/model/Index_1_9B from the specified address: https://hf-mirror.com/IndexTeam/Index-1.9B/tree/main or https://huggingface.co/IndexTeam/Index-1.9B/tree/main
  be careful! The directory cannot contain "." and can be replaced with "_"
 
 
 7.Download Stable Diffusion Model:
-Download the Stable Diffusion model to server_code/model/chilloutmix-fp16 from the provided model address: https://hf-mirror.com/sharpbai/chilloutmix-onnx-rocm-fp16/tree/main or https://huggingface.co/sharpbai/chilloutmix-onnx-rocm-fp16/tree/main .
+Download the Stable Diffusion model to server_code/model/chilloutmix-fp16 from the provided model address: https://drive.google.com/file/d/1j5LzPN_mnfybLspDdN4_UKhLRuinao3A/view?usp=sharing
 
 8.Copy server_code Folder to the Docker Container:
 Copy the server_code folder containing your server-side code into the running Docker container.
